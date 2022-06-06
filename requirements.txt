@@ -12,5 +12,4 @@ py-dotenv==0.1
 pymongo==4.1.1
 pypiwin32==223
 python-dotenv==0.20.0
-pywin32==304
 Werkzeug==2.1.2
