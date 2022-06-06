@@ -10,6 +10,5 @@ Jinja2==3.1.2
 MarkupSafe==2.1.1
 py-dotenv==0.1
 pymongo==4.1.1
-pypiwin32==223
 python-dotenv==0.20.0
 Werkzeug==2.1.2
