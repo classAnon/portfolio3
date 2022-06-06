@@ -32,6 +32,7 @@ def form_handler():
     user = current_collection.find_one({"Message": client_data["Message"]}) and current_collection.find_one({"Email": client_data["Email"]})
     if not user:
         current_collection.insert_one(client_data)
+        sleep(5)
         return redirect(url_for('home'))
     else:
         return jsonify({"msg": "Something went wrong. Could not send message"})
