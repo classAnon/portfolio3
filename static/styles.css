@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Truculenta', sans-serif;
+}
+
+
+
+section {
+    background-color: rgb(252, 252, 252);
+}
+
+
+.hero {
+    height: 100vh;
+    background-color: #8d3421;
+    color: white;
+    font-size: 30px;
+}
+
+.logo img{
+    height: 120px;
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-top: 2vh;
+}
+
+
+li{
+    text-decoration: none;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-name{
+    margin: 20vh auto auto 10vw;
+}
+
+.hero-name h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero-name p{
+    font-size: 20px;
+}
+
+.about-button{
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.about-button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;
+}
+
+.about h2{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.about p{
+    padding-left: 10px;
+}
+
+.headshot {
+    width: 200px;
+    border-radius: 125px;
+    margin-bottom: 10vh;
+    margin-left: 3vw;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+#projects{
+    background-color: white;
+}
+
+#projects h2{
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.dev-table{
+    display: flex;
+    justify-content: center;
+}
+
+.project-tables{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+    padding-bottom: 10vh;
+}
+
+@media screen and (max-width: 1000px){
+    .project-tables{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+a {
+    color: white!important;
+    text-decoration: none!important;
+}
+
+table{
+    width: 45vw;
+    height: 50vh;
+    text-align: center;
+    font-size: large;
+}
+
+table a{
+    text-decoration: underline!important;
+}
+
+table a:hover{
+    background-color: #8d3421; 
+}
+
+table tr {
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+table th {
+    background-image: linear-gradient(to right, #8d3421, #bd5037);
+    color: white;
+}
+
+table td {
+    background: linear-gradient(to right, gray, darkgray);
+    color: white;
+}
+
+
+
+ul a:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    border-radius: 45px;
+}
+
+.socials a:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #8d3421;
+}
+
+form h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vh;
+}
+
+.inputField{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+#clientEmail, #clientName{
+    width: 40vw;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#clientMsg{
+    width: 40vw;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#sendBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    background-color: gray;
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+#sendBtn:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #bd5037;
+        margin: 0px;
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #bd5037;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    table{
+        margin-top: 20px;
+    }
+}

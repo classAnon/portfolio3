@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Truculenta:opsz,wght@12..72,100;12..72,200;12..72,300;12..72,400;12..72,500;12..72,600;12..72,700;12..72,800;12..72,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0daa527358.js" crossorigin="anonymous"></script>
+
+    <title>portfolio</title>
+</head>
+<body>
+
+    <section class="hero">
+        <nav>
+            <div class="logo">
+                <a href="{{ url_for('home') }}">
+                    <img src="{{ url_for('static', filename="edited_logo.png") }}"/>
+                </a>
+            </div>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="hero-area">
+            <div class="hero-name">
+                <h1>Emmanuel Essien</h1>
+                <p>Fullstack Python Developer & Writer</p>
+                <div class="about-button"><a href="#about-me">About me</a></div>
+            </div>
+
+            <div class="socials">
+                <div>
+                    <a href="https://twitter.com/_classAnon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://linkedin.com/in/emmanuel-essien-44523423a" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/classAnon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.upwork.com/freelancers/~01df001179be2c1b98" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"  viewBox="0 0 50 50" style=" fill:#fff;"><path d="M 1 9 C 0.448 9 0 9.448 0 10 L 0 24.115234 C 0 30.276234 4.6829844 35.631469 10.833984 35.980469 C 16.730984 36.314469 21.747875 32.176391 22.796875 26.650391 C 23.366875 27.420391 23.94625 28.135969 24.53125 28.792969 L 21.001953 43.771484 C 20.932953 44.069484 21.002406 44.380094 21.191406 44.621094 C 21.382406 44.859094 21.670563 45 21.976562 45 L 27.095703 45 C 27.559703 45 27.959406 44.687328 28.066406 44.236328 C 28.687406 41.615328 29.660969 37.508156 30.542969 33.785156 L 31.453125 34.3125 C 33.618125 35.4335 35.815 36 38 36 C 45.192 36 50.926 29.641 49.875 22.25 C 49.179 17.354 45.414078 13.318344 40.580078 12.277344 C 34.951078 11.064344 29.525359 13.949141 27.193359 18.744141 C 27.193359 18.744141 26.934562 19.318578 26.726562 19.892578 C 25.076563 17.046578 24.107609 14.094078 23.599609 11.955078 C 23.414609 11.175078 23.137469 9.762875 23.105469 9.671875 C 22.966469 9.268875 22.589109 9 22.162109 9 L 17 9 C 16.448 9 16 9.448 16 10 L 16 24.300781 C 16 26.649781 14.287219 28.750516 11.949219 28.978516 C 9.2672187 29.240516 7 27.13 7 24.5 L 7 10 C 7 9.448 6.552 9 6 9 L 1 9 z M 38 19 C 40.757 19 43 21.243 43 24 C 43 26.757 40.757 29 38 29 C 35.775 29 33.713531 27.658281 32.269531 26.488281 C 32.796531 24.263281 33.15025 22.773047 33.15625 22.748047 C 33.72425 20.541047 35.717 19 38 19 z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about-me">
+        <div class="about">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                </blockquote>
+                I am passionate developer and writer. Solving problems and contributing to meaningful projects are the things i enjoy doing.
+                <br><br>
+
+                I have worked as a fullstack and backend developer in several startups, FinTech corporations, and multiple freelance & personal projects.
+                I have thorough comprehension of complex HTML, CSS, JavaScript, PHP and Python.
+                I have tremendous experience working with different frameworks across various tech stacks like Django, Flask, FastAPI, Node, React, Express WordPress and SQL & NoSQL databases.
+
+                I excel at web development but I am in no where constrained to only building web applications. 
+                I also specialize in automating tests & processes with Python - Of course, everyone knows Python is powerful, vast, fun and makes the world a better place!
+                <br><br>
+
+                Due to my profound interest in innovations, I find it fascinating to write and research about technologies. Doing this for the last few years
+                has helped me stay updated on the latest technologies and tools in the tech ecosystem.
+                <br><br>
+
+                That's not all...
+                <br><br>
+
+                Even more about my writing is that I also produce top-notch content across different niches other than tech. 
+                I thrive across several niches like Finance, Real Estate, Digital Marketing, and Business. 
+                
+                Strong content, clear messages, creative copies! 
+                <br><br>
+
+                With over four(4) years of experience guiding and assisting business owners,
+                I'll get you past any blocks you might have about creating your web content and marketing campaigns.
+
+                B2B or B2C, you need a copy that keeps your brand in mind. 
+                <br><br>
+
+                I'll partner with you to produce strong web content, email campaigns,
+                newsletters, ads campaigns, and more. I'll make the small things glow and the big things easy to understand in well-crafted, flowing pieces that 
+                get the point across.<br><br>
+                
+
+                I am organized, reliable, and capable of managing multiple priorities with a positive attitude. Willing to take on added responsibilities
+                to meet team goals. Let's talk about your project.
+                </blockquote>
+                </p>
+                            
+            </div>
+
+            <div class="headshot-container">
+                <img class="headshot" src="{{ url_for('static', filename="headshot.jpg") }}" />
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="dev-table">
+            <table>
+                <tr>
+                    <th colspan="2">Developer Projects</th>
+                </tr>
+                <tr>
+                    <th>Title</th>
+                    <th>Summary</th>
+                </tr>
+                <tr>
+                    <th>REST API</th>
+                    <td><a href="https://github.com/classAnon/FLASK-Projects.git" target="_blank">Restful API using flask and mongodb-atlas with 3 URL end points</a></td> 
+                </tr>
+                <tr>
+                    <th>WordPress Site</th>
+                    <td><a href="https://jeffaid.com/" target="_blank">Built a blog site with WordPress</a></td>
+                </tr>
+                <tr>
+                    <th>War Card Game</th>
+                    <td><a href="https://github.com/classAnon/Python/blob/main/War%20Card%20Game.ipynb" target="_blank">Simulated War Card Game with Python</a></td>
+                </tr>
+                <tr>
+                    <th>Python OOP</th>
+                    <td><a href="https://github.com/classAnon/Python/blob/main/Bank%20Account%20Challenge%20with%20OOP.ipynb" target="_blank">Created a full-featured mock user bank account with OOP</a></td>
+                </tr>
+                <tr>
+                    <th>Tic-Tac-Toe Game</th>
+                    <td><a href="https://github.com/classAnon/Python/blob/main/Tic%20Tac%20Toe%20Game.ipynb" target="_blank">Full Python tic-tac-toe game logic and simulation</a></td>
+                </tr>
+                <tr>
+                    <th>My Portfolio Site</th>
+                    <td><a href="#">web app developed with Flask</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="project-tables">
+
+            <div class="table-one">
+                <table>
+                    <tr>
+                        <th colspan="2">Tech Writing Samples</th>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <th>Summary</th>
+                    </tr>
+                    <tr>
+                        <th>Bug Tracking Tools</th>
+                        <td><a href="https://docs.google.com/document/d/1qKzLjZMIb7Xl8bw_VLQQJyb8-HebWJf3NbLy8z29b8I/edit" target="_blank">Best Bug Tracking Tools for your projects in 2022</a></td>
+                    </tr>
+                    <tr>
+                        <th>Mac Backup Software</th>
+                        <td><a href="https://docs.google.com/document/d/1lkBYn_54-kBXdoj2EqfLjTHaGFDvRiSrQIjY6SMkhrg/edit" target="_blank">Top Backup Software for Mac Owners</a></td>
+                    </tr>
+                    <tr>
+                        <th>Identity Theft Protection</th>
+                        <td><a href="https://docs.google.com/document/d/1CXYlY-rXPMT2xOyHjy6YK_3SEE4P_9gC8WNpVb65FpE/edit" target="_blank">Identity Theft Protection and Monitoring Services</a></td>
+                    </tr>
+                    <tr>
+                        <th>HTML Lesson</th>
+                        <td><a href="https://docs.google.com/document/d/1HUUchAHd-b_x1qBWtQZuUba2Pq7-r34cXCp6yA3TYss/edit" target="_blank">Everything you need to get started with html</a></td>
+                    </tr>
+                    <tr>
+                        <th>Cloud Security</th>
+                        <td><a href="https://docs.google.com/document/d/1fJkjQ2pJ2esLo3P7YvG1uW8vDU2odATZl0BGPF885aA/edit" target="_blank">Cloud Security Posture Management is Important</a></td>
+                    </tr>
+                    <tr>
+                        <th>Blockchain technology</th>
+                        <td><a href="https://docs.google.com/document/d/1maxI_xwcBpDiCvC9meypn2CIVxWgi8v7sg-OiBl_DXY/edit" target="_blank">What you need to know about 'blockchain'</a></td>
+                    </tr>
+                    <tr>
+                        <th>IT & Innovations</th>
+                        <td><a href="https://docs.google.com/document/d/1SjlASaxoFDA2nAgG__JpISAMqsyx_SXALicb34-tjs8/edit" target="_blank">How IT drives Innovations</a></td>
+                    </tr>
+                    <tr>
+                        <th>Developing with Laravel</th>
+                        <td><a href="https://docs.google.com/document/d/1G7SECJDM_QUe6zzna4v9_-ais21pX2NpqEw-YWnjJ1o/edit" target="_blank">Reasons why you should try out Laravel</a></td>
+                    </tr>
+                </table>  
+            </div>
+
+            <div class="table-two">
+                <table>
+                    <tr>
+                        <th colspan="2">Other Niches Samples</th>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <th>Summary</th>
+                    </tr>
+                    <tr>
+                        <th>Email Marketing Tools</th>
+                        <td><a href="https://docs.google.com/document/d/1_iaIaGt34XhUEDreWwtM1PMeEIxy9IeHI1cxghxVv64/edit?usp=sharing" target="_blank">Top Email Marketing and List Building Software</a></td>
+                    </tr>
+                    <tr>
+                        <th>Smith Maneouvre</th>
+                        <td><a href="https://docs.google.com/document/d/1FH8GJEgw4hhvXGHbrxD2BP2UwH0pUhEwjqtFkWJ4KdA/edit?usp=sharing" target="_blank">What you need to know about the Smith maneouvre</a></td>
+                    </tr>
+                    <tr>
+                        <th>Personal Finance</th>
+                        <td><a href="https://docs.google.com/document/d/17czmmp_7rNt1NLaBPucZJWUzs_iZCjXsHi07tuAb-Gk/edit?usp=sharing" target="_blank">Different Loans for Business Funding</a></td>
+                    </tr>
+                    <tr>
+                        <th>Sales Page</th>
+                        <td><a href="https://docs.google.com/document/d/1-6jb_bmSFTUhMoHaeSQssvWH9zPXMlPGpj63bnuoV64/edit?usp=sharing" target="_blank">Sales writing for an online course</a></td>
+                    </tr>
+                    <tr>
+                        <th>B2B Content</th>
+                        <td><a href="https://docs.google.com/document/d/1eKlbnzKxFEfpaDAn9ApFLbqP1L0JJPtOVPJzeN4B_g8/edit?usp=sharing" target="_blank">Building your Agency into a lethal Empire</a></td>
+                    </tr>
+                    <tr>
+                        <th>Marketing</th>
+                        <td><a href="https://docs.google.com/document/d/1aOMFNV_vsJf11Ke37VvMuk0UeQWrUkRICSX91g6gN_I/edit?usp=sharing" target="_blank">Picking the Target Group and Core Market</a></td>
+                    </tr>
+                    <tr>
+                        <th>Product Review</th>
+                        <td><a href="https://docs.google.com/document/d/19lngxJLCY6012mtk9oRQ0k5YHltPj555EAslx2CWJ88/edit?usp=sharing" target="_blank">Coleman Hot Tub Review</a></td>
+                    </tr>
+                    <tr>
+                        <th>Advertisement</th>
+                        <td><a href="https://docs.google.com/document/d/17ynKBM0i8hVam5lkuvXZhL-fLhz4wB3vvT0cROqc7y0/edit?usp=sharing" target="_blank">Wild Posting as an ads format</a></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+    </section>
+    <footer id="contact">
+        <form action="{{url_for('form_handler')}}" method="POST" id="clientForm">
+            <h2>LET'S TALK</h2>
+            <div class="inputField">
+                <input type="text" name="clientName" id="clientName" placeholder="Your First Name" required>
+            </div>
+            <div class="inputField">
+                <input type="email" name="clientEmail" id="clientEmail" placeholder="Your Email Address" required>
+            </div>
+            <div class="inputField">
+                <textarea name="clientMsg" id="clientMsg" placeholder="Write Your Message Here..." required></textarea>
+            </div>
+            <div class="inputField">
+                <button type="Submit" id="sendBtn">Send</button>
+            </div>
+        </form>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
