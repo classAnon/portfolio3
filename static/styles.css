@@ -112,7 +112,7 @@ blockquote{
 }
 
 #projects{
-    background-color: white;
+    background-color: #fbb666;
 }
 
 #projects h2{
@@ -277,7 +277,7 @@ form h2{
 
     ul {
         display: none;
-        background-color: rgb(88, 104, 58);
+        background-color: #d3572e;
         margin: 0px;
     }
 
@@ -288,7 +288,7 @@ form h2{
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: rgb(88, 104, 58);
+        background-color: #d3572e;
     }
 
     .logo{
