@@ -277,18 +277,19 @@ form h2{
 
     ul {
         display: none;
-        background-color: #55231d;
+        background-color: #fbb666;
         margin: 0px;
     }
 
     ul.show{
         display: block;
+        background-color: #fbb666;
     }
 
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #55231d;
+        background-color: #fbb666;
     }
 
     .logo{
