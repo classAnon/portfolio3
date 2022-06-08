@@ -10,7 +10,7 @@
 
 .hero {
     height: 100vh;
-    background-color: rgb(55, 66, 35);
+    background-color: #842f1d;
     color: white;
     font-size: 30px;
 }
@@ -64,7 +64,7 @@ li{
     width: 150px;
     font-size: 18px;
     border-radius: 2.5vh;
-    background-color: gray;
+    background-color: #fbb666;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ li{
 }
 
 .about-button:hover{
-    background-color: darkgray;
+    background-color: #fdce98;
     cursor: pointer;
 }
 
@@ -198,7 +198,7 @@ ul a:hover{
 }
 
 footer {
-    background-color: rgb(55, 66, 35);
+    background-color: #55231d;
 }
 
 form h2{
@@ -239,7 +239,7 @@ form h2{
     align-items: center;
     margin-top: 1vh;
     margin-bottom: 3vh;
-    background-color: gray;
+    background-color: #fbb666;
     color: white;
     width: 150px;
     height: 7vh;
@@ -251,7 +251,7 @@ form h2{
 }
 
 #sendBtn:hover{
-    background-color: darkgray;
+    background-color: #fdce98;
     cursor: pointer;
 }
 
