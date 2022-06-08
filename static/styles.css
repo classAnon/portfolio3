@@ -8,14 +8,9 @@
 
 
 
-section {
-    background-color: rgb(252, 252, 252);
-}
-
-
 .hero {
     height: 100vh;
-    background-color: #8d3421;
+    background-color: purple;
     color: white;
     font-size: 30px;
 }
@@ -84,29 +79,32 @@ li{
 .about {
     display: flex;
     justify-content: space-around;
-    padding-top: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .about h2{
+    display: flex;
+    justify-content: center;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 40px;
     padding-left: 10px;
 }
 
-.about p{
-    padding-left: 10px;
+.about .headshot-class{
+    display: flex;
+    justify-content: center;
 }
 
 .headshot {
     width: 200px;
-    border-radius: 125px;
-    margin-bottom: 10vh;
-    margin-left: 3vw;
+    border-radius: 50%;
+    margin-bottom: 5vh;
 }
 
 .headshot-container{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #projects{
@@ -115,9 +113,10 @@ li{
 
 #projects h2{
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
+    padding: 3vh;
 }
 
 .dev-table{
@@ -129,7 +128,7 @@ li{
     display: flex;
     justify-content: space-around;
     margin-top: 7vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 @media screen and (max-width: 1000px){
@@ -146,7 +145,7 @@ a {
 }
 
 table{
-    width: 45vw;
+    width: 500px;
     height: 50vh;
     text-align: center;
     font-size: large;
@@ -157,7 +156,10 @@ table a{
 }
 
 table a:hover{
-    background-color: #8d3421; 
+    background-color: rgb(187, 185, 185); 
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
 
 table tr {
@@ -166,12 +168,14 @@ table tr {
 }
 
 table th {
-    background-image: linear-gradient(to right, #8d3421, #bd5037);
+    padding: 10px;
+    background-image: linear-gradient(to right,  rgb(105, 104, 104), rgb(173, 170, 170));
     color: white;
 }
 
 table td {
-    background: linear-gradient(to right, gray, darkgray);
+    padding: 10px;
+    background: linear-gradient(to right, rgb(105, 104, 104), rgb(173, 170, 170));
     color: white;
 }
 
@@ -190,7 +194,7 @@ ul a:hover{
 }
 
 footer {
-    background-color: #8d3421;
+    background-color: purple;
 }
 
 form h2{
@@ -207,17 +211,19 @@ form h2{
 }
 
 #clientEmail, #clientName{
-    width: 40vw;
+    width: 500px;
     height: 5vh;
     padding: 10px;
+    border: 0;
     border-radius: 10px;
     outline: none;
 }
 
 #clientMsg{
-    width: 40vw;
+    width: 500px;
     height: 30vh;
     padding: 10px;
+    border: 0;
     border-radius: 10px;
     outline: none;
     
@@ -231,9 +237,10 @@ form h2{
     margin-bottom: 3vh;
     background-color: gray;
     color: white;
-    width: 10vw;
+    width: 150px;
     height: 7vh;
     padding: 5px;
+    border: 0;
     border-radius: 10px;
     outline: none;
     font-weight: bold;
@@ -266,7 +273,7 @@ form h2{
 
     ul {
         display: none;
-        background-color: #bd5037;
+        background-color: purple;
         margin: 0px;
     }
 
@@ -277,7 +284,7 @@ form h2{
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #bd5037;
+        background-color: rgb(173, 44, 173);
     }
 
     .logo{

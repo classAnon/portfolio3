@@ -33,6 +33,7 @@ def form_handler():
     if not user:
         current_collection.insert_one(client_data)
         sleep(5)
+        
         return redirect(url_for('home'))
     else:
         return jsonify({"msg": "Something went wrong. Could not send message"})
