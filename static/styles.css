@@ -10,7 +10,7 @@
 
 .hero {
     height: 100vh;
-    background-color: purple;
+    background-color: rgb(55, 66, 35);
     color: white;
     font-size: 30px;
 }
@@ -107,6 +107,10 @@ li{
     align-items: flex-end;
 }
 
+blockquote{
+    padding: 15px;
+}
+
 #projects{
     background-color: white;
 }
@@ -194,7 +198,7 @@ ul a:hover{
 }
 
 footer {
-    background-color: purple;
+    background-color: rgb(55, 66, 35);
 }
 
 form h2{
@@ -273,7 +277,7 @@ form h2{
 
     ul {
         display: none;
-        background-color: rgb(173, 44, 173);
+        background-color: rgb(88, 104, 58);
         margin: 0px;
     }
 
@@ -284,7 +288,7 @@ form h2{
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: rgb(173, 44, 173);
+        background-color: rgb(88, 104, 58);
     }
 
     .logo{
