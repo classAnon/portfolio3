@@ -201,14 +201,14 @@ footer {
     background-color: #55231d;
 }
 
-form h2{
+form h1{
     display: flex;
     justify-content: center;
     color: white;
     padding-top: 2vh;
 }
 
-form h3{
+form h2{
     display: flex;
     justify-content: center;
     color: white;
