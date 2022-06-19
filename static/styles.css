@@ -209,12 +209,6 @@ form h1{
     padding-top: 2vh;
 }
 
-form h2{
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-top: 2vh;
-}
 
 .inputField{
     display: flex;
