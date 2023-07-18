@@ -124,6 +124,25 @@ li{
     margin-bottom: 5vh;
 }
 
+#github-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: #55231d;
+    margin-bottom: 5vh;
+}
+
+#github-button:hover{
+    background-color: #fbb666;
+    border: 1px solid #55231d;
+    cursor: pointer;
+}
+
 blockquote{
     padding: 15px;
 }
