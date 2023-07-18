@@ -111,6 +111,15 @@ li{
     align-items: flex-end;
 }
 
+.resume-container {
+    display: flex;
+  }
+  
+  .resume-button {
+    flex: 1;  /* This will make each child div take up equal space within the container. */
+  }
+  
+
 .resume-button {
     margin: auto;
     display: flex;
