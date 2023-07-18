@@ -71,10 +71,13 @@ li{
     margin-top: 5vh;
 }
 
-.about-button:hover{
-    background-color: #fdce98;
+.about-button:hover, .resume-button:hover{
+    background-color: #55231d;
+    border: 1px solid #fbb666;
     cursor: pointer;
 }
+
+
 
 .about {
     display: flex;
@@ -106,6 +109,19 @@ li{
 .headshot-container{
     display: flex;
     align-items: flex-end;
+}
+
+.resume-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: #fbb666;
+    margin-bottom: 5vh;
 }
 
 blockquote{
@@ -187,9 +203,9 @@ table td {
 
 
 ul a:hover{
-    background-color: darkgray;
+    background-color: #55231d;
     cursor: pointer;
-    border: 1px solid #55231d;;
+    border: 1px solid #fbb666;
     cursor: pointer;
     padding: 10px;
     border-radius: 2.5vh;
