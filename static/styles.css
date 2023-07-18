@@ -161,10 +161,10 @@ table a{
 }
 
 table a:hover{
-    background-color: rgb(187, 185, 185); 
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
+    background-color: #fff;
+    background: transparent;
+    opacity: 0.2;
+    cursor: pointer;
 }
 
 table tr {
@@ -189,7 +189,10 @@ table td {
 ul a:hover{
     background-color: darkgray;
     cursor: pointer;
-    border-radius: 45px;
+    border: 1px solid #55231d;;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2.5vh;
 }
 
 .socials a:hover{
