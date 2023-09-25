@@ -127,6 +127,7 @@ li{
     height: 7vh;
     width: 150px;
     font-size: 18px;
+    border: 1px solid #2c3e50;
     border-radius: 2.5vh;
     background-color: #ecf0f1;
     color: #2c3e50!important;
@@ -174,6 +175,12 @@ blockquote{
     justify-content: center;
 }
 
+#tech-writing, #software-row {
+    background-color: #34495e!important;
+    color: #fff;
+}
+
+
 .project-tables{
     display: flex;
     justify-content: space-around;
@@ -201,9 +208,6 @@ table{
     font-size: large;
 }
 
-#tech-writing, #software-row {
-    background-color: #34495e!important;
-}
 
 table a{
     text-decoration: underline!important;
