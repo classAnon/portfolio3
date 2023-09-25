@@ -157,7 +157,7 @@ blockquote{
 }
 
 #projects{
-    background-color: #756317;
+    background-color: #fff;
 }
 
 #projects h2{
@@ -173,9 +173,14 @@ blockquote{
     justify-content: center;
 }
 
-#tech-writing, #software-row {
-    background-color: #756317;
-    color: #fff;
+#tech-writing-row {
+    background-color: #7b3474; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+#software-row {
+    background-color: #641a21; /* Replace with your desired color */
+    color: #ffffff;
 }
 
 
