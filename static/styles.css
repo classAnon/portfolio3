@@ -226,6 +226,7 @@ table a:hover{
 table tr {
     height: 50px;
     border-bottom: 1px solid gray;
+    color:black;
 }
 
 table th {
