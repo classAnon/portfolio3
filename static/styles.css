@@ -64,8 +64,7 @@ li{
     width: 150px;
     font-size: 18px;
     border-radius: 2.5vh;
-    background-color: #ecf0f1;
-    color: #2c3e50!important;
+    background-color: #756317;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +73,7 @@ li{
 
 .about-button:hover, .resume-button:hover{
     background-color: #2c3e50;
-    border: 1px solid #ecf0f1;
+    border: 1px solid #756317;
     cursor: pointer;
 }
 
@@ -127,10 +126,9 @@ li{
     height: 7vh;
     width: 150px;
     font-size: 18px;
-    border: 1px solid #2c3e50;
+    border: 1px solid #756317;
     border-radius: 2.5vh;
-    background-color: #ecf0f1;
-    color: #2c3e50!important;
+    background-color: #756317;
     margin-bottom: 5vh;
 }
 
@@ -142,14 +140,14 @@ li{
     height: 7vh;
     width: 150px;
     font-size: 18px;
+    border: 1px solid #756317;
     border-radius: 2.5vh;
     background-color: #2c3e50;
     margin-bottom: 5vh;
 }
 
 #github-button:hover{
-    background-color: #ecf0f1;
-    color: #2c3e50!important;
+    background-color: #756317;
     border: 1px solid #2c3e50;
     cursor: pointer;
 }
@@ -159,7 +157,7 @@ blockquote{
 }
 
 #projects{
-    background-color: #ecf0f1;
+    background-color: #756317;
 }
 
 #projects h2{
@@ -242,7 +240,7 @@ table td {
 ul a:hover{
     background-color: #2c3e50;
     cursor: pointer;
-    border: 1px solid #ecf0f1;
+    border: #756317;
     cursor: pointer;
     padding: 10px;
     border-radius: 2.5vh;
@@ -298,8 +296,7 @@ form h1{
     align-items: center;
     margin-top: 1vh;
     margin-bottom: 3vh;
-    background-color: #ecf0f1;
-    color: #2c3e50!important;
+    background-color: #756317;
     width: 150px;
     height: 7vh;
     padding: 5px;
@@ -310,7 +307,8 @@ form h1{
 }
 
 #sendBtn:hover{
-    background-color: #ecf0f1;
+    background-color: #756317;
+    border: 1px solid #2c3e50;
     cursor: pointer;
 }
 
@@ -336,19 +334,19 @@ form h1{
 
     ul {
         display: none;
-        background-color: #ecf0f1;
+        background-color: #756317;
         margin: 0px;
     }
 
     ul.show{
         display: block;
-        background-color: #ecf0f1;
+        background-color: #756317;
     }
 
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #ecf0f1;
+        background-color: #756317;
     }
 
     .logo{
